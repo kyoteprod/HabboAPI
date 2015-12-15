@@ -33,12 +33,11 @@ try {
 
 if ($myHabbo->hasProfile()) {
     // Collect all the profile info
-    /** @var Profile $myProfile */
     $myProfile = $habboApi->getProfile($myHabbo->getId());
 } else {
     // This Habbo has a closed home, only show their Habbo object
-    $profile = new Profile();
-    $myProfile = $profile->setHabbo($myHabbo);
+    $myProfile = new Profile();
+    $myProfile->setHabbo($myHabbo);
 }
 
 $myPhotos = $habboApi->getPhotos($myHabbo->getId());
