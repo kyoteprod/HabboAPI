@@ -17,6 +17,9 @@ namespace HabboAPI\Entities;
 class Furni implements Entity
 {
 
+    const WALL_TYPE = "wall";
+    const FLOOR_TYPE = "floor";
+
     private $type;
     private $id;
     private $className;
@@ -43,7 +46,6 @@ class Furni implements Entity
      */
     public function parse($furni)
     {
-        $this->setType($furni['@attributes']['type']);
         $this->setId($furni['@attributes']['id']);
         $this->setClassName($furni['@attributes']['classname']);
         $this->setRevision($furni['revision']);
@@ -67,12 +69,15 @@ class Furni implements Entity
         $this->setRentBuyOut($furni['rentbuyout']);
         $this->setBC($furni['bc']);
         $this->setSpecialType($furni['specialtype']);
+        if (isset($furni['type'])) {
+            $this->setType($furni['type']);
 
-        // Additional attributes for Floor items
-        if ($furni['@attributes']['type'] == 'roomitemtypes') {
-            $this->setCanStandOn($furni['canstandon']);
-            $this->setCanSitOn($furni['cansiton']);
-            $this->setCanLayOn($furni['canlayon']);
+            // Additional attributes for Floor items
+            if ($furni['type'] == self::FLOOR_TYPE) {
+                $this->setCanStandOn($furni['canstandon']);
+                $this->setCanSitOn($furni['cansiton']);
+                $this->setCanLayOn($furni['canlayon']);
+            }
         }
     }
 

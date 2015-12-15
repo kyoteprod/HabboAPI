@@ -159,19 +159,19 @@ class HabboParser implements HabboParserInterface
         $url = '/gamedata/furnidata_xml/1';
         $responseData = $this->_callUrl($this->api_base . $url, false);
 
-        list($data) = new SimpleXMLElement($responseData[0]);
+        $data = new SimpleXMLElement($responseData[0]);
 
         $furnis = array();
 
         foreach ($data as $key => $furni_type) {
+            $furni_type_constant = ($key == "roomitemtypes") ? Furni::FLOOR_TYPE : Furni::WALL_TYPE;
             foreach ($furni_type as $furni_data) {
-
-                $furni_dataArray = (array)$furni_data;
-                $furni_dataArray['@attributes']['type'] = $key;
                 $temp_furni = new Furni();
-                $temp_furni->parse($furni_dataArray);
+                $parse_data = (array)$furni_data;
+                $parse_data['type'] = $furni_type_constant;
+                $temp_furni->parse($parse_data);
                 $furnis[] = $temp_furni;
-                unset($temp_furni);
+                unset($temp_furni, $parse_data);
             }
         }
 

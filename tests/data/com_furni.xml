@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<furnidata>
+    <roomitemtypes>
+        <furnitype id="13" classname="shelves_norja">
+            <revision>49500</revision>
+            <defaultdir>0</defaultdir>
+            <xdim>1</xdim>
+            <ydim>1</ydim>
+            <partcolors>
+                <color>#ffffff</color>
+                <color>#F7EBBC</color>
+            </partcolors>
+            <name>Beige Bookcase</name>
+            <description>For nic naks and books.</description>
+            <adurl></adurl>
+            <offerid>5</offerid>
+            <buyout>1</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>1</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <customparams></customparams>
+            <specialtype>1</specialtype>
+            <canstandon>0</canstandon>
+            <cansiton>0</cansiton>
+            <canlayon>0</canlayon>
+        </furnitype>
+        <furnitype id="14" classname="shelves_polyfon">
+            <revision>48082</revision>
+            <defaultdir>0</defaultdir>
+            <xdim>2</xdim>
+            <ydim>1</ydim>
+            <partcolors>
+                <color>0</color>
+                <color>0</color>
+                <color>0</color>
+            </partcolors>
+            <name>Bookcase</name>
+            <description>Make your books look sleek.</description>
+            <adurl></adurl>
+            <offerid>6</offerid>
+            <buyout>1</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>1</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <customparams></customparams>
+            <specialtype>1</specialtype>
+            <canstandon>0</canstandon>
+            <cansiton>0</cansiton>
+            <canlayon>0</canlayon>
+        </furnitype>
+        <furnitype id="15" classname="shelves_silo">
+            <revision>56746</revision>
+            <defaultdir>0</defaultdir>
+            <xdim>2</xdim>
+            <ydim>1</ydim>
+            <partcolors>
+                <color>0</color>
+                <color>0</color>
+                <color>0</color>
+            </partcolors>
+            <name>Bookcase</name>
+            <description>For nic naks and books.</description>
+            <adurl></adurl>
+            <offerid>-1</offerid>
+            <buyout>0</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>1</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <customparams></customparams>
+            <specialtype>1</specialtype>
+            <canstandon>0</canstandon>
+            <cansiton>0</cansiton>
+            <canlayon>0</canlayon>
+        </furnitype>
+        <furnitype id="17" classname="table_polyfon_small">
+            <revision>48082</revision>
+            <defaultdir>0</defaultdir>
+            <xdim>2</xdim>
+            <ydim>2</ydim>
+            <partcolors>
+                <color>0</color>
+                <color>0</color>
+                <color>0</color>
+            </partcolors>
+            <name>Small Coffee Table</name>
+            <description>For serving a stylish latte.</description>
+            <adurl></adurl>
+            <offerid>8</offerid>
+            <buyout>1</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>1</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <customparams></customparams>
+            <specialtype>1</specialtype>
+            <canstandon>0</canstandon>
+            <cansiton>0</cansiton>
+            <canlayon>0</canlayon>
+        </furnitype>
+        <furnitype id="18" classname="chair_polyfon">
+            <revision>45508</revision>
+            <defaultdir>0</defaultdir>
+            <xdim>1</xdim>
+            <ydim>1</ydim>
+            <partcolors>
+                <color>0</color>
+                <color>0</color>
+                <color>0</color>
+            </partcolors>
+            <name>Dining Chair</name>
+            <description>Metallic seating experience</description>
+            <adurl></adurl>
+            <offerid>158</offerid>
+            <buyout>1</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>0</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <customparams></customparams>
+            <specialtype>1</specialtype>
+            <canstandon>0</canstandon>
+            <cansiton>1</cansiton>
+            <canlayon>0</canlayon>
+        </furnitype>
+        <furnitype id="20" classname="table_norja_med">
+            <revision>49500</revision>
+            <defaultdir>0</defaultdir>
+            <xdim>2</xdim>
+            <ydim>2</ydim>
+            <partcolors>
+                <color>#ffffff</color>
+                <color>#F7EBBC</color>
+            </partcolors>
+            <name>Beige Coffee Table</name>
+            <description>For larger gatherings.</description>
+            <adurl></adurl>
+            <offerid>10</offerid>
+            <buyout>1</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>1</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <customparams></customparams>
+            <specialtype>1</specialtype>
+            <canstandon>0</canstandon>
+            <cansiton>0</cansiton>
+            <canlayon>0</canlayon>
+        </furnitype>
+        <furnitype id="21" classname="table_silo_med">
+            <revision>56746</revision>
+            <defaultdir>0</defaultdir>
+            <xdim>2</xdim>
+            <ydim>2</ydim>
+            <partcolors>
+                <color>#ffffff</color>
+                <color>#ABD0D2</color>
+            </partcolors>
+            <name>Gray Coffee Table</name>
+            <description>Perfect for entertaining.</description>
+            <adurl></adurl>
+            <offerid>-1</offerid>
+            <buyout>0</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>1</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <customparams></customparams>
+            <specialtype>1</specialtype>
+            <canstandon>0</canstandon>
+            <cansiton>0</cansiton>
+            <canlayon>0</canlayon>
+        </furnitype>
+    </roomitemtypes>
+    <wallitemtypes>
+        <furnitype id="1" classname="post.it">
+            <revision>0</revision>
+            <name>Pad of stickies</name>
+            <description>Pad of stickies</description>
+            <adurl></adurl>
+            <offerid>-1</offerid>
+            <buyout>0</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>0</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <specialtype>5</specialtype>
+        </furnitype>
+        <furnitype id="2" classname="post.it.vd">
+            <revision>0</revision>
+            <name>Heart stickies</name>
+            <description>Spread your love!</description>
+            <adurl></adurl>
+            <offerid>-1</offerid>
+            <buyout>0</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>0</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <specialtype>5</specialtype>
+        </furnitype>
+        <furnitype id="3" classname="photo">
+            <revision>45508</revision>
+            <name>Photo</name>
+            <description>Photo from Habbo</description>
+            <adurl></adurl>
+            <offerid>-1</offerid>
+            <buyout>0</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>0</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <specialtype>1</specialtype>
+        </furnitype>
+        <furnitype id="1001" classname="Chess">
+            <revision>0</revision>
+            <name></name>
+            <description></description>
+            <adurl></adurl>
+            <offerid>-1</offerid>
+            <buyout>0</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>0</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <specialtype>1</specialtype>
+        </furnitype>
+        <furnitype id="1011" classname="TicTacToe">
+            <revision>0</revision>
+            <name></name>
+            <description></description>
+            <adurl></adurl>
+            <offerid>-1</offerid>
+            <buyout>0</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>0</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <specialtype>1</specialtype>
+        </furnitype>
+        <furnitype id="1021" classname="BattleShip">
+            <revision>0</revision>
+            <name></name>
+            <description></description>
+            <adurl></adurl>
+            <offerid>-1</offerid>
+            <buyout>0</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>0</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <specialtype>1</specialtype>
+        </furnitype>
+        <furnitype id="2010" classname="Poker">
+            <revision>0</revision>
+            <name></name>
+            <description></description>
+            <adurl></adurl>
+            <offerid>-1</offerid>
+            <buyout>0</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>0</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <specialtype>1</specialtype>
+        </furnitype>
+        <furnitype id="3001" classname="wallpaper">
+            <revision>45512</revision>
+            <name></name>
+            <description></description>
+            <adurl></adurl>
+            <offerid>12246</offerid>
+            <buyout>1</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>0</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <specialtype>2</specialtype>
+        </furnitype>
+        <furnitype id="3002" classname="floor">
+            <revision>47923</revision>
+            <name></name>
+            <description></description>
+            <adurl></adurl>
+            <offerid>12286</offerid>
+            <buyout>1</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>0</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <specialtype>3</specialtype>
+        </furnitype>
+        <furnitype id="4001" classname="poster">
+            <revision>56783</revision>
+            <name></name>
+            <description></description>
+            <adurl></adurl>
+            <offerid>275</offerid>
+            <buyout>1</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>1</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <specialtype>6</specialtype>
+        </furnitype>
+        <furnitype id="4002" classname="gothicfountain">
+            <revision>45512</revision>
+            <name>Gothic fountain</name>
+            <description>The dark side of Habbo</description>
+            <adurl></adurl>
+            <offerid>-1</offerid>
+            <buyout>0</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>0</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <specialtype>1</specialtype>
+        </furnitype>
+        <furnitype id="4003" classname="hc_wall_lamp">
+            <revision>45508</revision>
+            <name>Retro Wall Lamp</name>
+            <description>Tres chic!</description>
+            <adurl></adurl>
+            <offerid>1237</offerid>
+            <buyout>1</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>0</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <specialtype>1</specialtype>
+        </furnitype>
+        <furnitype id="4004" classname="industrialfan">
+            <revision>45512</revision>
+            <name>Industrial Turbine</name>
+            <description>Powerful and resilient</description>
+            <adurl></adurl>
+            <offerid>-1</offerid>
+            <buyout>0</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>0</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <specialtype>1</specialtype>
+        </furnitype>
+        <furnitype id="4005" classname="torch">
+            <revision>56746</revision>
+            <name>Gothic Torch</name>
+            <description>The dark side of Habbo</description>
+            <adurl></adurl>
+            <offerid>-1</offerid>
+            <buyout>0</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>1</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <specialtype>1</specialtype>
+        </furnitype>
+        <furnitype id="4006" classname="val_heart">
+            <revision>49653</revision>
+            <name>Heartlight</name>
+            <description>...love or heartbreak</description>
+            <adurl></adurl>
+            <offerid>-1</offerid>
+            <buyout>0</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>0</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <specialtype>1</specialtype>
+        </furnitype>
+        <furnitype id="4007" classname="wallmirror">
+            <revision>56746</revision>
+            <name>Romantique Wall Mirror</name>
+            <description>Looking stylish.</description>
+            <adurl></adurl>
+            <offerid>-1</offerid>
+            <buyout>0</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>1</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <specialtype>1</specialtype>
+        </furnitype>
+        <furnitype id="4008" classname="jp_ninjastars">
+            <revision>56746</revision>
+            <name>Ninja Stars</name>
+            <description>Don't let it fall off your wall!</description>
+            <adurl></adurl>
+            <offerid>-1</offerid>
+            <buyout>0</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>1</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <specialtype>1</specialtype>
+        </furnitype>
+        <furnitype id="4009" classname="habw_mirror">
+            <revision>56746</revision>
+            <name>Habbowood Mirror</name>
+            <description>All good things begin at Hair &amp; Make-up</description>
+            <adurl></adurl>
+            <offerid>-1</offerid>
+            <buyout>0</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>1</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <specialtype>1</specialtype>
+        </furnitype>
+        <furnitype id="4010" classname="habbowheel">
+            <revision>45508</revision>
+            <name>The Wheel of Fortune</name>
+            <description>Take it for a spin!</description>
+            <adurl></adurl>
+            <offerid>-1</offerid>
+            <buyout>0</buyout>
+            <rentofferid>-1</rentofferid>
+            <rentbuyout>0</rentbuyout>
+            <bc>0</bc>
+            <excludeddynamic>0</excludeddynamic>
+            <specialtype>1</specialtype>
+        </furnitype>
+    </wallitemtypes>
+</furnidata>

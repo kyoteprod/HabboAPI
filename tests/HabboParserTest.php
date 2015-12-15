@@ -10,6 +10,7 @@ class HabboParserTest extends PHPUnit_Framework_TestCase
     private static $profile;
     private static $photos;
     private static $public_photos;
+    private static $furni;
     /** @var HabboParser|PHPUnit_Framework_MockObject_MockObject $habboParserMock */
     private $habboParserMock;
 
@@ -19,6 +20,7 @@ class HabboParserTest extends PHPUnit_Framework_TestCase
         self::$profile = json_decode(file_get_contents(dirname(__FILE__) . '/data/com_koeientemmer_getprofile.json'), true);
         self::$photos = json_decode(file_get_contents(dirname(__FILE__) . '/data/com_koeientemmer_getphotos.json'), true);
         self::$public_photos = json_decode(file_get_contents(dirname(__FILE__) . '/data/com_public_photos.json'), true);
+        self::$furni = file_get_contents(dirname(__FILE__) . '/data/com_furni.xml');
     }
 
     public function setUp()
@@ -105,6 +107,19 @@ class HabboParserTest extends PHPUnit_Framework_TestCase
         $this->assertEquals(200, count($photos), "Should contain 200 photos");
         foreach ($photos as $photo) {
             $this->assertInstanceOf('HabboAPI\Entities\Photo', $photo);
+        }
+    }
+
+    public function testParseFurni()
+    {
+        // Replace parseHabbo with static data
+        $this->habboParserMock->expects($this->once())->method('_callUrl')->will($this->returnValue(array(self::$furni)));
+
+        $furni = $this->habboParserMock->parseFurni();
+
+        $this->assertEquals(26, count($furni), "Should contain 26 furni");
+        foreach ($furni as $f) {
+            $this->assertInstanceOf('HabboAPI\Entities\Furni', $f);
         }
     }
 }
