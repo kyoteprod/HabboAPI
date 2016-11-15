@@ -232,7 +232,8 @@ class HabboParser implements HabboParserInterface
         if ($data[0] == "{") { // Quick 'hack' to see if this could be JSON
             $json = json_decode($data, true);
             if (isset($json['errors'])) {
-                if ($json['errors'][0]['msg'] == "user.invalid_name") {
+                // newest API returns not-found as error message
+                if ($json['errors'][0]['msg'] == "user.invalid_name" || "not-found") {
                     throw new UserInvalidException("The name you supplied appears to be invalid");
                 }
                 $defaultMessage = $json['errors'][0]['msg'];
